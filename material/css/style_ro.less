@@ -332,7 +332,7 @@ body {
 		width: @header_i_size;*/
 		margin-right: 20px;
 		margin-left: 20px;
-		color: #FFFFFF;
+		color: #4d687f;
 	}
 	.material-icons {
 		font-size: 35px;
@@ -364,7 +364,7 @@ body {
 }
 
 .text_content {
-	margin-left: 10%;
+	margin-left: 5%;
 	margin-right: 5%;
 	color: darken(@color-primary-0, 5%);
 	font-family: 'arial';
@@ -374,6 +374,50 @@ body {
 	p {
 		margin-top: 15px;
 	}
+}
+
+.rounded_list {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 100%;
+	td {
+		height: 40px;
+		padding: 5px;
+	}
+	.marker {
+		width: 30px;
+		vertical-align: top;
+		i {
+			font-size: 16px;
+			color: #FFFFFF;
+			margin-top: 5px;
+		}
+	}
+	.item {
+		font-family: 'Quicksand';
+		font-size: 1.25em;
+		color: @color-primary-3;
+		font-weight: bolder;
+		margin-left: 10px;
+	}
+	.subitem {
+		font-family: 'Quicksand';
+		font-size: 1em;
+		color: @color-primary-2;
+		font-weight: bolder;
+		font-style: italic;
+		margin-left: 10px;
+	}
+	.value {
+		font-family: 'Arial';
+		color: @color-primary-2;
+		font-size: 1.1em;
+		font-style: italic;
+	}
+}
+
+.full_width {
+	width: 100%;
 }
 
 .timeline_container {
@@ -397,6 +441,8 @@ body {
 			font-style: italic;
 			color: @color-primary-2;
 			margin-right: 20px;
+			width: 75px;
+			text-align: right;
 		}
 		.timeline_marker {
 			display: -ms-flexbox;
@@ -411,7 +457,7 @@ body {
 			-ms-box-orient: vertical;
 			box-orient: vertical;
 
-			width: 40px;
+			width: 20px;
 			margin-top: 3px;
 			.indicator {
 				border: 2px solid #fff;
@@ -426,7 +472,13 @@ body {
 				margin: auto;
 				margin-top: 3px;
 
-				height: 70px;
+				min-height: 70px;
+
+				-ms-flex: 1;
+				-webkit-box-flex: 1;
+				-moz-box-flex: 1;
+				-ms-box-flex: 1;
+				box-flex: 1;
 			}
 		}
 		.timeline_details {
@@ -445,7 +497,26 @@ body {
 				font-weight: bolder;
 				font-style: italic;
 				line-height: 5px;
-				text-align: right;
+			}
+			.details {
+				font-family: 'Quicksand';
+				margin-left: 10px;
+				margin-top: 10px;
+				margin-bottom: 40px;
+				h6 {
+					color: @color-primary-2;
+					font-size: 1.1em;
+					font-weight: bold;
+					margin: 0px;
+				}
+				li {
+					i {
+						vertical-align: bottom;
+					}
+					.material-icons {
+						color: #FFFFFF;
+					}
+				}
 			}
 		}
 	}
@@ -514,4 +585,8 @@ body {
 	margin-bottom: 40px;
 	z-index: 900;
 	background-color: #0F3984;
+}
+
+.vertical_spacer {
+	height: 100px;
 }
