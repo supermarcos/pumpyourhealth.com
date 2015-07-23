@@ -39,6 +39,31 @@ html, body {
     padding-left: 30px;
   }
 }
+@media (max-width:850px) {
+  .mdl-layout__header-row {
+    padding-left: 50px;
+  }
+  .mdl-layout-title {
+    font-size: 20px;
+  }
+  .text_header > h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .text_header > .material-icons {
+    font-size: 20px;
+  }
+  .text_header > hr {
+    margin-top: 15px;
+  }
+  .text_header > i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .demo-drawer-header {
+    height: 120px !important;
+  }
+}
 .mdl-layout__container {
   background: #93a9ba;
   background: -moz-linear-gradient(top, #93a9ba 0%, #bcc7d1 100%);
