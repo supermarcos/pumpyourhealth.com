@@ -34,8 +34,10 @@ html, body {
   font-size: 40px;
   font-weight: bolder;
 }
-.mdl-layout__header-row {
-  padding-left: 30px;
+@media (min-width:850px) {
+  .mdl-layout__header-row {
+    padding-left: 30px;
+  }
 }
 .mdl-layout__container {
   background: #93a9ba;
