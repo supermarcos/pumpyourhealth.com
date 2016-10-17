@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-<html lang="en-US">
+<html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Rocio Montejo Raez curriculum and resume">
 		<meta name="keywords" content="Personal trainer, ESSA, certified, exercise scientist, ">
 		<meta name="author" content="Rocio Montejo Raez">
-		<link rel="author" href="https://plus.google.com/114061461197969438725"/>
 
 		<meta property="og:type" content="resume" />
     	<meta property="og:title" content="Rocio Montejo Raez - Pump Your Health" />
@@ -20,223 +20,762 @@
 
 		<link rel="shortcut icon" type="image/ico" href="imgs/favicon_rocio.ico"/>
 
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="imgs/touch/chrome-touch-icon-192x192.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+		<link rel="apple-touch-icon-precomposed" href="imgs/touch/apple-touch-icon-precomposed.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="imgs/touch/ms-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileColor" content="#3372DF">
+
 		<link rel="stylesheet" id="reset-css" type="text/css" media="all" href="css/reset.css">
-		<!--<link rel="stylesheet" id="pump-screen-css" type="text/css" media="screen" href="css/style.css">-->
-		<!--<link rel="stylesheet" id="pump-print-css" type="text/css" media="print" href="css/print.css">-->
 
 		<link rel="stylesheet" id="pump-screen-css" type="text/css" media="screen" href="css/style_ro.css">
 
-		<link rel="stylesheet" type="text/css" href="css/menu_sideslide.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/material.min.css">-->
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+		<!--<link rel="stylesheet" id="pump-screen-css" type="text/css" media="screen" href="css/styles_material.css">-->
+		<link rel="stylesheet" id="pump-screen-css" type="text/css" media="screen" href="css/styles_dash.css">
 
-		<style type="text/css" media="screen">
-			.titleIE {
-				color: #555;
-				text-shadow: none;
-			}
-		</style>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
 
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.js"></script>-->
+		<!--<script type="text/javascript" src="js/material.min.js"></script>-->
 
 	</head>
 
 	<body>
-
-		<div class="menu-wrap">
-			<div class="nav">
-
-				<div class="top">
-					<div class="image"></div>
-				</div>
-
-				<div class="menu">
-					<!--
-					<div class="name">
-						Rocío Montejo Ráez
-						<hr class="hr"></hr>
-					</div>
-					-->
-					<div class="options icon-list">
-						<div class="option"><i class="icon globe"></i>Biography</div>
-						<div class="option"><i class="icon school"></i>Education</div>
-						<div class="option"><i class="icon work"></i>Experience</div>
-						<div class="option"><i class="icon details"></i>Details</div>
-						<div class="option"><i class="icon references"></i>References</div>
-						<div class="option"><i class="icon mail"></i>Contact</div>
-					</div>
-				</div>
-
-				<button class="close-button" id="close-button">Close Menu</button>
+		<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Roc&iacute;o Montejo R&aacute;ez</span>
+          <div class="mdl-layout-spacer"></div>
+          <a href="docs/rocio_montejo_raez_cv.pdf" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+            <i class="material-icons">file_download</i>
+          </a>
+        </div>
+      </header>
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+        <header class="demo-drawer-header">
+          <div class="image"></div>
+          <!--<div class="demo-avatar-dropdown">
+            <span>hello@example.com</span>
+            <div class="mdl-layout-spacer"></div>
+            <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons" role="presentation">arrow_drop_down</i>
+              <span class="visuallyhidden">Accounts</span>
+            </button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+              <li class="mdl-menu__item">hello@example.com</li>
+              <li class="mdl-menu__item">info@example.com</li>
+              <li class="mdl-menu__item"><i class="material-icons">add</i>Add another account...</li>
+            </ul>
+          </div>-->
+        </header>
+		<nav class="demo-navigation mdl-navigation">
+			<a class="mdl-navigation__link" href="#biography">
+				<i class="material-icons" role="presentation">public</i>
+				Biography
+			</a>
+			<a class="mdl-navigation__link" href="#education">
+				<i class="material-icons" role="presentation">school</i>
+				Education
+			</a>
+			<a class="mdl-navigation__link" href="#experience">
+				<i class="material-icons" role="presentation">work</i>
+				Experience
+			</a>
+			<a class="mdl-navigation__link" href="#extra">
+				<i class="material-icons" role="presentation">star</i>
+				Extra CV
+			</a>
+			<a class="mdl-navigation__link" href="#certifications">
+				<i class="material-icons" role="presentation">verified_user</i>
+				Certifications
+			</a>
+			<a class="mdl-navigation__link" href="#languages">
+				<i class="material-icons" role="presentation">translate</i>
+				Languages
+			</a>
+			<a class="mdl-navigation__link" href="#references">
+				<i class="material-icons" role="presentation">forum</i>
+				References
+			</a>
+			<a class="mdl-navigation__link" href="#contact">
+				<i class="material-icons" role="presentation">mail</i>
+				Contact
+			</a>
+			<div class="mdl-layout-spacer"></div>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid demo-content content">
+        	<div class="text_header">
+				<a name="biography"></a><i class="material-icons">public</i><h2>Biography</h2><hr class="hr"></hr>
 			</div>
-		</div>
+			<div class="text_content">
+				<p>
+					A highly competent and enthusiastic sport scientist with a proven ability to help people achieve their health goals. Possessing a successful track record of evaluating client’s physical fitness, understanding their needs, and developing practical and achievable workout routine for them to reach their targets and improve their health. Possessing the necessary communication skills required to gain the trust of clients and thereby retain their business.
+					Roc&iacute;o is looking for a job oportunity to work in the exercise and sport industry and keep developing her professional and personal skills.
+				</p>
+			</div>
 
-		<div class="container">
+			<div class="text_header">
+				<a name="education"></a><i class="material-icons">school</i><h2>Education</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content">
+				<div class="timeline_container">
 
-			<div class="margin_bar"></div>
-
-			<div class="main">
-				<!--<div class="topmenubar">
-				</div>-->
-				
-				<div class="content">
-					<!--<div class="subcontent">
-
-					</div>-->
-
-					<div class="name">
-						<div>Rocío Montejo Ráez</div>
-						<i class="icon menu" id="open-button"></i>
-					</div>
-
-					<div class="text_header"><i class="icon block globe"></i><h2>Biography</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a felis non ligula ullamcorper iaculis ac ac dolor. Nam velit nisl, cursus eget tincidunt a, sollicitudin eu dui. Phasellus lobortis lobortis odio sed feugiat. Integer non sapien vehicula, ullamcorper libero id, pretium nisl. Nulla erat velit, molestie sed neque nec, varius volutpat lacus. Morbi ut magna eget est pulvinar tincidunt ac tristique tortor. Praesent pretium, metus varius condimentum laoreet, est nisi finibus lectus, eu vehicula est nisi semper felis. Nunc condimentum ullamcorper arcu, non porta justo faucibus vel. Sed ac est eget eros pulvinar convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec ex in arcu faucibus gravida eu sed urna. Ut vel ante cursus, auctor elit vel, vehicula orci. Quisque a elit tellus. Integer efficitur gravida lectus, molestie consectetur mi tincidunt at.
-						</p>
-						<p>
-							Pellentesque bibendum ipsum et suscipit rhoncus. Nullam non massa in nulla tincidunt mattis. Mauris cursus ante nec ex viverra, sed semper lacus bibendum. Suspendisse potenti. Fusce dictum turpis elit, quis semper ex venenatis sit amet. Nam non urna non massa tristique ullamcorper et sit amet dolor. Sed congue ante massa, et aliquet ipsum faucibus in. Nunc imperdiet malesuada lacus id molestie. Vestibulum vulputate dolor urna, non ornare quam venenatis ut. Maecenas leo tortor, fermentum et posuere eget, pulvinar nec lacus.
-						</p>
-						<p>
-							Curabitur id iaculis purus. Cras malesuada, elit in pulvinar dignissim, tortor purus laoreet diam, vitae sollicitudin massa orci sit amet lacus. Morbi pellentesque vitae diam a aliquet. Maecenas eget fermentum lorem. Suspendisse rhoncus leo a bibendum tristique. Donec vel porta velit. Aliquam facilisis venenatis efficitur. Proin dui felis, tristique et arcu ut, facilisis placerat dolor. Donec in malesuada odio.
-						</p>
-					</div>
-
-					<div class="text_header"><i class="icon block school"></i><h2>Education</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<div class="timeline_container">
-
-							<div class="timeline_entry">
-								<div class="timeline_when">2002</div>
-								<div class="timeline_marker">
-									<div class="indicator"></div>
-									<div class="line"></div>
-								</div>
-								<div class="timeline_details">
-									<div class="what">Exercise scientist</div>
-									<div class="where">University of Granada</div>
-								</div>
-							</div>
-
-							<div class="timeline_entry">
-								<div class="timeline_when">2002</div>
-								<div class="timeline_marker">
-									<div class="indicator"></div>
-									<div class="line"></div>
-								</div>
-								<div class="timeline_details">
-									<div class="what">Exercise scientist</div>
-									<div class="where">University of Granada</div>
-								</div>
-							</div>
-							
-							<div class="timeline_entry">
-								<div class="timeline_when">2002</div>
-								<div class="timeline_marker">
-									<div class="indicator"></div>
-									<div class="line"></div>
-								</div>
-								<div class="timeline_details">
-									<div class="what">Exercise scientist</div>
-									<div class="where">University of Granada</div>
-								</div>
-							</div>
-
-							<div class="timeline_entry">
-								<div class="timeline_when">2002</div>
-								<div class="timeline_marker">
-									<div class="indicator"></div>
-								</div>
-								<div class="timeline_details">
-									<div class="what">Exercise scientist</div>
-									<div class="where">University of Granada</div>
-								</div>
-							</div>
-
+					<div class="timeline_entry">
+						<div class="timeline_when">Jan 2014</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Certificate III &amp; IV in Fitness</div>
+							<div class="where">Australian Institute of Personal Trainers</div>
 						</div>
 					</div>
 
-					<div class="text_header"><i class="icon block work"></i><h2>Experience</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a felis non ligula ullamcorper iaculis ac ac dolor. Nam velit nisl, cursus eget tincidunt a, sollicitudin eu dui. Phasellus lobortis lobortis odio sed feugiat. Integer non sapien vehicula, ullamcorper libero id, pretium nisl. Nulla erat velit, molestie sed neque nec, varius volutpat lacus. Morbi ut magna eget est pulvinar tincidunt ac tristique tortor. Praesent pretium, metus varius condimentum laoreet, est nisi finibus lectus, eu vehicula est nisi semper felis. Nunc condimentum ullamcorper arcu, non porta justo faucibus vel. Sed ac est eget eros pulvinar convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec ex in arcu faucibus gravida eu sed urna. Ut vel ante cursus, auctor elit vel, vehicula orci. Quisque a elit tellus. Integer efficitur gravida lectus, molestie consectetur mi tincidunt at.
-						</p>
-						<p>
-							Pellentesque bibendum ipsum et suscipit rhoncus. Nullam non massa in nulla tincidunt mattis. Mauris cursus ante nec ex viverra, sed semper lacus bibendum. Suspendisse potenti. Fusce dictum turpis elit, quis semper ex venenatis sit amet. Nam non urna non massa tristique ullamcorper et sit amet dolor. Sed congue ante massa, et aliquet ipsum faucibus in. Nunc imperdiet malesuada lacus id molestie. Vestibulum vulputate dolor urna, non ornare quam venenatis ut. Maecenas leo tortor, fermentum et posuere eget, pulvinar nec lacus.
-						</p>
-						<p>
-							Curabitur id iaculis purus. Cras malesuada, elit in pulvinar dignissim, tortor purus laoreet diam, vitae sollicitudin massa orci sit amet lacus. Morbi pellentesque vitae diam a aliquet. Maecenas eget fermentum lorem. Suspendisse rhoncus leo a bibendum tristique. Donec vel porta velit. Aliquam facilisis venenatis efficitur. Proin dui felis, tristique et arcu ut, facilisis placerat dolor. Donec in malesuada odio.
-						</p>
+					<div class="timeline_entry">
+						<div class="timeline_when">Sep 2006</br>Sep 2009</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Bachelor Exercise &amp Sport Sciences</div>
+							<div class="where">University of Granada (Spain)</div>
+						</div>
 					</div>
 
-					<div class="text_header"><i class="icon block details"></i><h2>Details</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a felis non ligula ullamcorper iaculis ac ac dolor. Nam velit nisl, cursus eget tincidunt a, sollicitudin eu dui. Phasellus lobortis lobortis odio sed feugiat. Integer non sapien vehicula, ullamcorper libero id, pretium nisl. Nulla erat velit, molestie sed neque nec, varius volutpat lacus. Morbi ut magna eget est pulvinar tincidunt ac tristique tortor. Praesent pretium, metus varius condimentum laoreet, est nisi finibus lectus, eu vehicula est nisi semper felis. Nunc condimentum ullamcorper arcu, non porta justo faucibus vel. Sed ac est eget eros pulvinar convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec ex in arcu faucibus gravida eu sed urna. Ut vel ante cursus, auctor elit vel, vehicula orci. Quisque a elit tellus. Integer efficitur gravida lectus, molestie consectetur mi tincidunt at.
-						</p>
-						<p>
-							Pellentesque bibendum ipsum et suscipit rhoncus. Nullam non massa in nulla tincidunt mattis. Mauris cursus ante nec ex viverra, sed semper lacus bibendum. Suspendisse potenti. Fusce dictum turpis elit, quis semper ex venenatis sit amet. Nam non urna non massa tristique ullamcorper et sit amet dolor. Sed congue ante massa, et aliquet ipsum faucibus in. Nunc imperdiet malesuada lacus id molestie. Vestibulum vulputate dolor urna, non ornare quam venenatis ut. Maecenas leo tortor, fermentum et posuere eget, pulvinar nec lacus.
-						</p>
-						<p>
-							Curabitur id iaculis purus. Cras malesuada, elit in pulvinar dignissim, tortor purus laoreet diam, vitae sollicitudin massa orci sit amet lacus. Morbi pellentesque vitae diam a aliquet. Maecenas eget fermentum lorem. Suspendisse rhoncus leo a bibendum tristique. Donec vel porta velit. Aliquam facilisis venenatis efficitur. Proin dui felis, tristique et arcu ut, facilisis placerat dolor. Donec in malesuada odio.
-						</p>
-					</div>
-
-					<div class="text_header"><i class="icon block references"></i><h2>References</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a felis non ligula ullamcorper iaculis ac ac dolor. Nam velit nisl, cursus eget tincidunt a, sollicitudin eu dui. Phasellus lobortis lobortis odio sed feugiat. Integer non sapien vehicula, ullamcorper libero id, pretium nisl. Nulla erat velit, molestie sed neque nec, varius volutpat lacus. Morbi ut magna eget est pulvinar tincidunt ac tristique tortor. Praesent pretium, metus varius condimentum laoreet, est nisi finibus lectus, eu vehicula est nisi semper felis. Nunc condimentum ullamcorper arcu, non porta justo faucibus vel. Sed ac est eget eros pulvinar convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec ex in arcu faucibus gravida eu sed urna. Ut vel ante cursus, auctor elit vel, vehicula orci. Quisque a elit tellus. Integer efficitur gravida lectus, molestie consectetur mi tincidunt at.
-						</p>
-						<p>
-							Pellentesque bibendum ipsum et suscipit rhoncus. Nullam non massa in nulla tincidunt mattis. Mauris cursus ante nec ex viverra, sed semper lacus bibendum. Suspendisse potenti. Fusce dictum turpis elit, quis semper ex venenatis sit amet. Nam non urna non massa tristique ullamcorper et sit amet dolor. Sed congue ante massa, et aliquet ipsum faucibus in. Nunc imperdiet malesuada lacus id molestie. Vestibulum vulputate dolor urna, non ornare quam venenatis ut. Maecenas leo tortor, fermentum et posuere eget, pulvinar nec lacus.
-						</p>
-						<p>
-							Curabitur id iaculis purus. Cras malesuada, elit in pulvinar dignissim, tortor purus laoreet diam, vitae sollicitudin massa orci sit amet lacus. Morbi pellentesque vitae diam a aliquet. Maecenas eget fermentum lorem. Suspendisse rhoncus leo a bibendum tristique. Donec vel porta velit. Aliquam facilisis venenatis efficitur. Proin dui felis, tristique et arcu ut, facilisis placerat dolor. Donec in malesuada odio.
-						</p>
-					</div>
-
-					<div class="text_header"><i class="icon block mail"></i><h2>Contact</h2><hr class="hr"></hr></div>
-					<div class="text_content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a felis non ligula ullamcorper iaculis ac ac dolor. Nam velit nisl, cursus eget tincidunt a, sollicitudin eu dui. Phasellus lobortis lobortis odio sed feugiat. Integer non sapien vehicula, ullamcorper libero id, pretium nisl. Nulla erat velit, molestie sed neque nec, varius volutpat lacus. Morbi ut magna eget est pulvinar tincidunt ac tristique tortor. Praesent pretium, metus varius condimentum laoreet, est nisi finibus lectus, eu vehicula est nisi semper felis. Nunc condimentum ullamcorper arcu, non porta justo faucibus vel. Sed ac est eget eros pulvinar convallis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec ex in arcu faucibus gravida eu sed urna. Ut vel ante cursus, auctor elit vel, vehicula orci. Quisque a elit tellus. Integer efficitur gravida lectus, molestie consectetur mi tincidunt at.
-						</p>
-						<p>
-							Pellentesque bibendum ipsum et suscipit rhoncus. Nullam non massa in nulla tincidunt mattis. Mauris cursus ante nec ex viverra, sed semper lacus bibendum. Suspendisse potenti. Fusce dictum turpis elit, quis semper ex venenatis sit amet. Nam non urna non massa tristique ullamcorper et sit amet dolor. Sed congue ante massa, et aliquet ipsum faucibus in. Nunc imperdiet malesuada lacus id molestie. Vestibulum vulputate dolor urna, non ornare quam venenatis ut. Maecenas leo tortor, fermentum et posuere eget, pulvinar nec lacus.
-						</p>
-						<p>
-							Curabitur id iaculis purus. Cras malesuada, elit in pulvinar dignissim, tortor purus laoreet diam, vitae sollicitudin massa orci sit amet lacus. Morbi pellentesque vitae diam a aliquet. Maecenas eget fermentum lorem. Suspendisse rhoncus leo a bibendum tristique. Donec vel porta velit. Aliquam facilisis venenatis efficitur. Proin dui felis, tristique et arcu ut, facilisis placerat dolor. Donec in malesuada odio.
-						</p>
+					<div class="timeline_entry">
+						<div class="timeline_when">Sep 2003</br>Jun 2006</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Degree PE Teacher</div>
+							<div class="where">University of Ja&eacute;n (Spain)</div>
+						</div>
 					</div>
 
 				</div>
 			</div>
-			
-			<div class="nav_right">
 
-				<div class="top">
-					<div class="image"></div>
+			<div class="text_header">
+				<a name="experience"></a><i class="material-icons">work</i><h2>Experience</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content">
+				<div class="timeline_container">
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Aug 2016</br>Currently</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Exercise Scientist</div>
+							<div class="where">Vigor Personal Training Studio</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Designing individual exercise programs based on assessment of the clients level of fitness, goals and abilities.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Setting up and monitoring fitness equipment and ensuring that equipment is safe, clean and in working condition.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Undertaking safety and risk assessments and ensuring all fitness activities are undertaken in a safe manner.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Developing and planning strategies and programs for health, wellness and effective injury prevention in conjunction with the current researchers and the studio manager.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Mar 2016</br>May 2016</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Health &amp; Lifestyle coordinator</div>
+							<div class="where">Spotless Facility Services</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Planning &amp; implementation of health and lifestyle programs to village residents to promote a culture of well-being &amp; health.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Assessment, provision and review of gym based exercise programs, including prescription and delivering, strength and conditioning programs, sporting and other recreational programs.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Facilitation of workplace stretching and conditioning programs in conjunction with current corporate injury prevention strategies.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Developing and planning strategies and programs for health, wellness and effective injury prevention in conjunction with the injury management coordinator.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Work site ergonomic assessments, audits and training.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Coordination of group exercise and sporting competitions to foster a healthy workforce.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Manual handling audits and training.
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Coordination of social and recreational activities on site.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Sep 2015</br>Feb 2016</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Gym manager &amp; Exercise Scientist</div>
+							<div class="where">Empower2TheMax</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Perform health assessments
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Prescript and deliver exercise programs
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Design &amp; promotion of activities to meet customers' demands
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Managing maintenance, insurance, repairs &amp; cleaning
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Carrying out health and safety checks on the equipment and site
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Complaint and incident handling
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">May 2013</br>Jul 2015</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Fitness instructor &amp; activity support officer</div>
+							<div class="where">PCYC Beenleigh</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Perform health assessments
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Prescript and deliver exercise programs
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Core Flex class instructor (pilates, yoga, stretching...)
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Rock climbing instructor
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Gym instructor
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Fitness leader (weight loss program, "MS" group)
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Design of brochures, flyers and posters
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Oct 2011</br>Jun 2012</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Assistant trainer</div>
+							<div class="where">Granada Soccer Club</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Design, implement, conduct and monitor strength and conditioning programs
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Assist with rehabilitation of injured players
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Assist with coordinating, maintenance and staffing of material and facilities
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Assist with plan, supervision and evaluation of programs
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Sep 2009</br> Sep 2011</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Teacher of Physical Education</div>
+							<div class="where">High School Sagrada Familia</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Oct 2007</br>Jun 2008</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Professional practices</div>
+							<div class="where">SERVISPORT</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Perform quality studies on the degree of user satisfaction with company activities
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Studies on activity demands
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Preparation of brochures, flyers and posters
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Development of educational programs and activities
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Study and improvements proposals for the annual business plan
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when" style="text-align: center;">2006/2007</br>&amp;</br>2005/2006</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Project coordinator</div>
+							<div class="where">"Creating database and software tool for Physical Education"</div>
+							<div class="details">
+								<h6>Competencies</h6>
+								<ul>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Prepare project organization and communication charts
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Track the progress and quality of work being performed by design disciplines/trades
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Use project scheduling and control tools for monitoring project plans, work hours, budgets and expenditures
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Review field inspection reports from Consultants throughout the project lifecycle
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Prepare substantial completion certificates and ensure all required close out documents are obtained
+									</li>
+									<li>
+										<i class="material-icons">keyboard_arrow_right</i>
+										Keep Project Manager and other roles up to date about the project status and issues
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Mar 2006</br>Jun 2006</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Practice as Teacher of Physical Education</div>
+							<div class="where">School Alfredo Cazaban</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Nov 2004</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Instructor in course</div>
+							<div class="where">"Physical exercise in disabled children" (University of Ja&eacute;n, Spain)</div>
+						</div>
+					</div>
+
 				</div>
+			</div>
 
-				<div class="menu">
-					<!--
-					<div class="name">
-						Rocío Montejo Ráez
-						<hr class="hr"></hr>
+			<div class="text_header">
+				<a name="extra"></a><i class="material-icons">star</i><h2>Extra curricular activities</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content">
+
+				<div class="timeline_container">
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Dec 2009</br>Jan 2010</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Psychology course</div>
+							<div class="where">Training programs in social skills</div>
+						</div>
 					</div>
-					-->
-					<div class="options">
-						<div><i class="icon globe"></i>Biography</div>
-						<div><i class="icon school"></i>Education</div>
-						<div><i class="icon work"></i>Experience</div>
-						<div><i class="icon details"></i>Details</div>
-						<div><i class="icon references"></i>References</div>
-						<div><i class="icon mail"></i>Contact</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Nov 2009</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Vocal of the cometee</div>
+							<div class="where">XII Congress of Andaluc&iacute; psychology of physical activity and sport</div>
+						</div>
 					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Nov 2009</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+							<div class="line"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Presentation for the talk</div>
+							<div class="where">Contents of a psychological basis in sport: conceptual review and study of the coaches thoughts</div>
+						</div>
+					</div>
+
+					<div class="timeline_entry">
+						<div class="timeline_when">Nov 2009</div>
+						<div class="timeline_marker">
+							<div class="indicator"></div>
+						</div>
+						<div class="timeline_details">
+							<div class="what">Article</div>
+							<div class="where">Creating a computerized training led to the development of teacher specelist Physical Education.</br></br></br></br>
+								Posted in Quality Assessment of Higher Education and Research (VI Forum)</br></br></br></br>
+								ISBN 978-8469235560</div>
+						</div>
+					</div>
+
 				</div>
 
 			</div>
 
+			<div class="text_header">
+				<a name="certifications"></a><i class="material-icons">verified_user</i><h2>Certifications</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content full_width">
+				<table class="rounded_list">
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Better Breathing: Respiratory Muscle Training and Airway Clearance</div>
+						</td>
+						<td class="value">
+							<div>Better Breathing Hippocamp - August 29, 2016</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>The Data Scientist’s Toolbox</div>
+						</td>
+						<td class="value">
+							<div>Johns Hopkins University - August 30, 2015</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>R Programming</div>
+						</td>
+						<td class="value">
+							<div>Johns Hopkins University - October 4, 2015</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>ESSA member</div>
+						</td>
+						<td class="value">
+							<div>Exercise Scientist #10214</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>First Aid</div>
+							<div>Perform CPR</div>
+						</td>
+						<td class="value">
+							<div>#HLTAID003</div>
+							<div>Expire date Fist Aid: 21/03/2018</div>
+							<div>Expire date CPR: 21/03/2016</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Certificate Group Exercise Leader</div>
+						</td>
+						<td class="value">
+							<div>Australian Institute of Personal Trainers</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Climbing Artificial Surfaces Instructor Top Rope</div>
+						</td>
+						<td class="value">
+							<div>#SISSS00046 Skill Set</div>
+							<div>Outdoor Training College</div>
+							<div>Statement Date: 05/08/2015</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Australian Driver License</div>
+						</td>
+						<td class="value">
+							<div>Automatic and manual vehicles</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Blue card Australia</div>
+						</td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="text_header">
+				<a name="languages"></a><i class="material-icons">translate</i><h2>Languages</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content full_width">
+				<table class="rounded_list">
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item" style="width: 100px;"><span>Spanish</span></td>
+						<td class="value"><span>Native</span></td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item" style="width: 100px;"><span>English</span></td>
+						<td class="value"><span>Competent (6.5 IELTS)</span></td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item" style="width: 100px;"><span>French</span></td>
+						<td class="value"><span>Basic</span></td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="text_header">
+				<a name="references"></a><i class="material-icons">forum</i><h2>References</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content full_width">
+				<table class="rounded_list">
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Barry Donovan</div>
+							<div class="subitem">Director of Empower2TheMax</div>
+						</td>
+						<td class="value"><span>barry@empower2themax.com.au</span></td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Sargeant Mark Heister</div>
+							<div class="subitem">Branch Manager PCYC Beenleigh</div>
+						</td>
+						<td class="value"><span>mark.heistier@pcyc.org.au</span></td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Brendon Pidgeon</div>
+							<div class="subitem">Fitness Manager PCYC Beenleigh</div>
+						</td>
+						<td class="value">
+							<div>brendon.pidgeon@pcyc.org.au</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Lance Faulkner</div>
+							<div class="subitem">BHMSc, MExSc, AEP, CISSN</div>
+							<div class="subitem">Accredited Exercise Physiologiest</div>
+							<div class="subitem">Certified Sports Nutritionist</div>
+							<div class="subitem">Strength and Conditioning Coach</div>
+						</td>
+						<td class="value">
+							<div>lance@lfes.com.au</div>
+							<div>http://www.lfes.com.au</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons">radio_button_unchecked</i></td>
+						<td class="item">
+							<div>Marcos Morales Rodrigo</div>
+							<div class="subitem">Software developer</div>
+							<div class="subitem">Accredited ACS <span style="font-family: arial; font-weight: normal; font-style: italic; font-size: 16px;">#3270713</span></div>
+						</td>
+						<td class="value">
+							<div>supermarcos@gmail.com</div>
+							<div>http://www.supermarcos.net</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="text_header">
+				<a name="contact"></a><i class="material-icons">email</i><h2>Contact</h2><hr class="hr"></hr>
+			</div>
+			<div class="text_content full_width">
+				<table class="rounded_list">
+					<tr>
+						<td class="marker" style="font-family: arial; font-size: 20px; color: #FFFFFF;">@</td>
+						<td class="item" style="width: 100px;">
+							<div>e-mail</div>
+						</td>
+						<td class="value">
+							<a href="mailto:rocio@pumpyourhealth.com" target="_blank">rocio@pumpyourhealth.com</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="marker"><i class="material-icons" style="font-size: 20px; ">public</i></td>
+						<td class="item" style="width: 100px;">
+							<div>Web site</div>
+						</td>
+						<td class="value">
+							<a href="http://www.pumpyourhealth.com" target="_blank">http://www.pumpyourhealth.com</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+        </div>
+
+        <!-- /// SIGNATURE /// -->
+        <div class="vertical_spacer"></div>
+		<div style="width: 100%; text-align: center;">
+			<div style="margin: auto; display: -webkit-inline-box; text-align: center">
+				<hr class="hr" style="  width: 80px; margin-right: 20px; margin-top: 25px;">
+				<img src="imgs/firmaRocio.png" style="width: 60px;">
+				<hr class="hr" style="  width: 80px; margin-left: 20px; margin-top: 25px;">
+			</div>
 		</div>
+		<div class="vertical_spacer"></div>
 
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
+      </main>
+    </div>
+
+	    <!--<a href="mailto:romontejo@gmail.com" target="_blank" class="mdl-button mdl-js-button mdl-button--fab mdl-button--fab mdl-js-ripple-effect mdl-button--colored" id="contact-me">
+			<i class="material-icons">mail</i>
+		</a>-->
+
+		<script src="js/material.min.js"></script>
 	</body>
 </html>
