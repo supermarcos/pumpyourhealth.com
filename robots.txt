@@ -1,4 +1,5 @@
 User-agent: * 
+Disallow: /docs/
 Disallow: /server/
 Disallow: /fonts/
 Disallow: /imgs/
